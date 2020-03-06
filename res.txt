@@ -1,0 +1,3206 @@
+Opcode: 0x1225
+Jump to address 0x225
+Opcode: 0x6000
+Move 0x0 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x6208
+Move 0x8 to V0
+Opcode: 0xa3dd
+Load I with constant NNN: 0x3dd
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x7008
+Add 0x8 to V0
+Opcode: 0x6100
+Move 0x0 to V0
+Opcode: 0x3040
+Skip next instruction if V0 == 0x40
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sprite at (V0, V0) with height 8
+Opcode: 0x7108
+Add 0x8 to V0
+Opcode: 0xf21e
+I += V0
+Opcode: 0x3120
+Skip next instruction if V0 == 0x20
+Opcode: 0x122d
+Jump to address 0x22d
+Opcode: 0xd018
+Draw sp
