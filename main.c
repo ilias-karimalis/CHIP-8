@@ -61,7 +61,7 @@ int keymap(unsigned char k) {
         case 's': return 0x8;
         case 'd': return 0x9;
         case 'f': return 0xe;
-                  
+
         case 'z': return 0xa;
         case 'x': return 0x0;
         case 'c': return 0xb;
@@ -108,9 +108,12 @@ void display() {
 
     for (row = 0; row < GFX_ROWS; row++) {
         for (col = 0; col < GFX_COLS; col++) {
-            paint_cell(row, col, gfx[col + 64*row] ? WHITE : BLACK);
+            paint_cell(row, col, gfx[row][col] ? WHITE : BLACK);
         }
     }
+
+    glDrawPixels(SCREEN_COLS, SCREEN_ROWS, GL_RGB, GL_UNSIGNED_BYTE, (void*) screen);
+    glutSwapBuffers();
 }
 
 void loop() {

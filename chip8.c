@@ -4,25 +4,6 @@
 
 static inline uint8_t randbyte() {return rand() % 256;}
 
-void draw_sprite(uint8_t x, uint8_t y, uint8_t h) {
-  int xline, yline;
-  uint8_t pixel;
-
-  registers[VF] = 0;
-  for (yline = 0; yline < h; yline++) {
-    pixel = memory[I + yline];
-    for (xline = 0; xline < 8; xline++) {
-      if (pixel & (0x80 >> xline)) {
-        if (gfx[x + xline + 64*(y + yline)] == 1) {
-          registers[VF] = 1;
-        }
-        gfx[x + xline + 64*(y + yline)] ^= 0x1;
-      }
-    }
-  }
-
-}
-
 unsigned char chip8_fontset[80] = {
   0xF0, 0x90, 0x90, 0x90, 0xF0,
   0x20, 0x60, 0x20, 0x20, 0x70,
@@ -42,6 +23,48 @@ unsigned char chip8_fontset[80] = {
   0xF0, 0x80, 0xF0, 0x80, 0x80
 };
 
+void draw_sprite(uint8_t x, uint8_t y, uint8_t h) {
+//  int xline, yline;
+//  uint8_t pixel;
+//
+//  registers[VF] = 0;
+//  for (yline = 0; yline < h; yline++) {
+//    pixel = memory[I + yline];
+//    for (xline = 0; xline < 8; xline++) {
+//      if (pixel & (0x80 >> xline)) {
+//        if (gfx[x + xline + 64*(y + yline)] == 1) {
+//          registers[VF] = 1;
+//        }
+//        gfx[x + xline + 64*(y + yline)] ^= 0x1;
+//      }
+//    }
+//  }
+    unsigned row = y, col = x;
+    unsigned byte_index;
+    unsigned bit_index;
+
+    // set the collision flag to 0
+    registers[0xF] = 0;
+    for (byte_index = 0; byte_index < h; byte_index++) {
+        uint8_t byte = memory[I + byte_index];
+
+        for (bit_index = 0; bit_index < 8; bit_index++) {
+            // the value of the bit in the sprite
+            uint8_t bit = (byte >> bit_index) & 0x1;
+            // the value of the current pixel on the screen
+            uint8_t *pixelp = &gfx[(row + byte_index) % GFX_ROWS]
+                                  [(col + (7 - bit_index)) % GFX_COLS];
+
+            // if drawing to the screen would cause any pixel to be erased,
+            // set the collision flag to 1
+            if (bit == 1 && *pixelp ==1) registers[0xF] = 1;
+
+            // draw this pixel by XOR
+            *pixelp = *pixelp ^ bit;
+        }
+    }
+}
+
 
 void chip8_init() {
 
@@ -51,15 +74,6 @@ void chip8_init() {
   opcode = 0;
   I = 0;
   sp = 0;
-
-  for (i = 0; i < GFX_SIZE; i++)
-    gfx[i] = 0;
-
-  for (i = 0; i < STACK_SIZE; i++)
-    stack[i] = key[i] = registers[i] = 0;
-
-  for (i = 0; i < MEM_SIZE; i++)
-    memory[i] = 0;
 
   for (i = 0; i < 80; i++)
     memory[i] = chip8_fontset[i];
@@ -87,17 +101,12 @@ void chip8_loadgame(char* filename) {
 void chip8_emulatecycle() {
 
   int i;
-
-  opcode = (memory[pc] << 8) | memory[pc + 1];
-
-  // Debug:
-  printf("Opcode: 0x%x\n", opcode);
-
   uint8_t x, y, n, kk;
   uint16_t nnn;
 
-  x = (opcode & 0x0F00) >> 16;
-  y = (opcode & 0x00F0) >> 8;
+  opcode = (memory[pc] << 8) | memory[pc + 1];
+  x = (opcode >> 8) & 0x000F;
+  y = (opcode >> 4) & 0x000F;
   n = opcode & 0x000F;
   kk = opcode & 0x00FF;
   nnn = opcode & 0x0FFF;
@@ -201,8 +210,8 @@ void chip8_emulatecycle() {
           break;
         case 0xE:
           printf("V%x = V%x << 1\n", x, x);
-          registers[x] = registers[x] << 1;
           registers[VF] = (registers[x] >> 7) & 0x1;
+          registers[x] = registers[x] << 1;
           break;
         default:
           unknown_opcode(opcode);
@@ -328,7 +337,7 @@ void chip8_emulatecycle() {
       unknown_opcode(opcode);
   }
 
-  chip8_tick();
+  //chip8_tick();
 }
 
 void chip8_tick() {
