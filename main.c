@@ -1,7 +1,8 @@
 #include "chip8.h"
 
 #include <stdio.h>
-#include <GL/glut.h>
+#include <GL/freeglut.h>
+#include <sys/time.h>
 
 #define CLOCK_HZ 60
 #define CLOCK_RATE_MS ((int) ((1.0/ CLOCK_HZ) * 1000 + 0.5))
@@ -12,100 +13,92 @@ enum colors {
 };
 
 #define PIXEL_SIZE 10
-int display_width = GFX_ROWS * PIXEL_SIZE;
-int display_height = GFX_COLS * PIXEL_SIZE;
-
+#define SCREEN_ROWS  (GFX_ROWS * PIXEL_SIZE)
+#define SCREEN_COLS  (GFX_COLS * PIXEL_SIZE)
 
 unsigned char screen[GFX_ROWS][GFX_COLS][3];
 
-void drawPixel(int x, int y);
-void updateQuads();
-void display();
-void reshape_window(GLsizei w, GLsizei h);
-void chip8_keyup(unsigned char k, int x, int y);
+struct timeval clock_prev;
+
 void chip8_keydown(unsigned char k, int x, int y);
+void chip8_keyup(unsigned char k, int x, int y);
+void paint_pixel(int x, int y, unsigned char color);
+void paint_cell(int x, int y, unsigned char color);
+void reshape_window(GLsizei w, GLsizei h);
+int timediff_ms(struct timeval* end, struct timeval* start);
+void gfx_setup();
 
-int main(int argc, char* argv[]) {
-
-  if (argc != 2) {
-    fprintf(stderr, "Usage: ./chip-8 <game>\n");
-    exit(2);
-  }
-
-  // Initialize the Chip8 system and load the game into the memory
-  chip8_init();
-  chip8_loadgame(argv[1]);
-
-  // Setup OpenGL
-  glutInit(&argc, argv);
-  glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
-
-  glutInitWindowSize(GFX_ROWS, GFX_COLS);
-  glutInitWindowPosition(320, 320);
-  glutCreateWindow("Chip-8 by Ilias Karimalis");
-
-  glutDisplayFunc(display);
-  glutIdleFunc(display);
-  //glutReshapeFunc(reshape_window);
-  glutKeyboardFunc(chip8_keydown);
-  glutKeyboardUpFunc(chip8_keyup);
-
-  glutMainLoop();
-
-  return 0;
+void gfx_setup() {
+    memset(screen, Black, sizeof(unsigned char) * SCREEN_ROWS * SCREEN_COLS * 3);
+    glClear(GL_COLOR_BUFFER_BIT);
 }
 
-void drawPixel(int x, int y) {
-  glBegin(GL_QUADS);
-  glVertex3f((x * PIXEL_SIZE) + 0.0f      , (y * PIXEL_SIZE) + 0.0f, 0.0f);
-  glVertex3f((x * PIXEL_SIZE) + 0.0f      , (y * PIXEL_SIZE) + PIXEL_SIZE, 0.0f);
-  glVertex3f((x * PIXEL_SIZE) + PIXEL_SIZE, (y * PIXEL_SIZE) + PIXEL_SIZE, 0.0f);
-  glVertex3f((x * PIXEL_SIZE) + PIXEL_SIZE, (y * PIXEL_SIZE) + 0.0f, 0.0f);
-  glEnd();
+void reshape_window(GLsizei w, GLsizei h) {
+  (void) w; (void) h;
 }
 
-void updateQuads() {
-  for(int y = 0; y < 32; ++y)
-    for(int x = 0; x < 64; ++x)
-    {
-      if(gfx[(y*64) + x] == 0)
-        glColor3f(0.0f,0.0f,0.0f);
-      else
-        glColor3f(1.0f,1.0f,1.0f);
+void paint_pixel(int x, int y, unsigned char color) {
+    x = SCREEN_ROWS - 1 - x;
+    screen[x][y][0] = screen[x][y][1] = screen[x][y][2] = color;
+}
 
-      drawPixel(x, y);
+int timediff_ms(struct timeval *end, struct timeval *start) {
+    int diff =  (end->tv_sec - start->tv_sec) * 1000 +
+                (end->tv_usec - start->tv_usec) / 1000;
+    //printf("timediff = %d\n", diff);
+    return diff;
+}
+
+void paint_cell(int row, int col, unsigned char color) {
+    int pixel_row = row * PIXEL_SIZE;
+    int pixel_col = col * PIXEL_SIZE;
+    int drow, dcol;
+
+    for (drow = 0; drow < PIXEL_SIZE; drow++) {
+        for (dcol = 0; dcol < PIXEL_SIZE; dcol++) {
+            paint_pixel(pixel_row + drow, pixel_col + dcol, color);
+        }
     }
 }
 
-void display() {
-  chip8_emulatecycle();
+void draw() {
+    int row, col;
 
-  if (draw_flag) {
+    // Clear framebuffer
     glClear(GL_COLOR_BUFFER_BIT);
-    updateQuads();
-    glutSwapBuffers();
-    draw_flag = false;
-  }
+
+    // Draw pixels to the buffer
+    for (row = 0; row < GFX_ROWS; row++) {
+        for (col = 0; col < GFX_COLS; col++) {
+            paint_cell(row, col, gfx[row*col] ? White : Black);
+        }
+    }
+
+    // Update Texture
+    glDrawPixels(SCREEN_COLS, SCREEN_ROWS, GL_RGB, GL_UNSIGNED_BYTE, 
+                 (void *) screen);
+    glutSwapBuffers(); 
 }
 
-/*
-void reshape_window(GLsizei w, GLsizei h) {
-  glClearColor(0.0f, 0.0f, 0.5f, 0.0f);
-  glMatrixMode(GL_PROJECTION);
-  glLoadIdentity();
-  gluOrtho2D(0, w, h, 0);
-  glMatrixMode(GL_MODELVIEW);
-  glViewport(0, 0, w, h);
+void loop() {
+    struct timeval clock_now;
+    gettimeofday(&clock_now, NULL);
 
-  // Resize quad
-  display_width = w;
-  display_height = h;
+    chip8_emulatecycle();
+
+    if (draw_flag) {
+        draw();
+        draw_flag = false;
+    }
+
+    if (timediff_ms(&clock_now, &clock_prev) >= CLOCK_RATE_MS) {
+        chip8_tick();
+        clock_prev = clock_now;
+    }
 }
-*/
 
-void chip8_keydown(unsigned char k, int x, int y)
-{
-  if(k == 27)    // esc
+void chip8_keydown(unsigned char k, int x, int y) {
+  if(k == 27)
     exit(0);
 
   if(k == '1')      key[0x1] = 1;
@@ -127,12 +120,9 @@ void chip8_keydown(unsigned char k, int x, int y)
   else if(k == 'x') key[0x0] = 1;
   else if(k == 'c') key[0xB] = 1;
   else if(k == 'v') key[0xF] = 1;
-
-  //printf("Press key %c\n", key);
 }
 
-void chip8_keyup(unsigned char k, int x, int y)
-{
+void chip8_keyup(unsigned char k, int x, int y) {
   if(k == '1')      key[0x1] = 0;
   else if(k == '2') key[0x2] = 0;
   else if(k == '3') key[0x3] = 0;
@@ -152,4 +142,39 @@ void chip8_keyup(unsigned char k, int x, int y)
   else if(k == 'x') key[0x0] = 0;
   else if(k == 'c') key[0xB] = 0;
   else if(k == 'v') key[0xF] = 0;
+}
+
+int main(int argc, char* argv[]) {
+
+  if (argc != 2) {
+    fprintf(stderr, "Usage: ./chip-8 <game>\n");
+    exit(2);
+  }
+
+  // Initialize the Chip8 system and load the game into the memory
+  chip8_init();
+  chip8_loadgame(argv[1]);
+
+  // Setup OpenGL
+  glutInit(&argc, argv);
+  glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+
+  glutInitWindowSize(GFX_ROWS, GFX_COLS);
+  glutInitWindowPosition(0, 0);
+  glutCreateWindow("Chip-8 by Ilias Karimalis");
+
+  glutDisplayFunc(draw);
+  glutIdleFunc(loop);
+  glutReshapeFunc(reshape_window);
+
+  glutKeyboardFunc(chip8_keydown);
+  glutKeyboardUpFunc(chip8_keyup);
+
+  gfx_setup();
+
+  gettimeofday(&clock_prev, NULL);
+
+  glutMainLoop();
+
+  return 0;
 }
