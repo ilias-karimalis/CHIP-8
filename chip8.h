@@ -55,7 +55,7 @@ uint8_t sound_timer;
 uint8_t draw_flag;
 
 uint8_t key[KEY_SIZE];
-uint8_t gfx[GFX_ROWS][GFX_COLS];
+uint8_t gfx[GFX_SIZE];
 
 void chip8_init();
 void chip8_loadgame(char* filename);
