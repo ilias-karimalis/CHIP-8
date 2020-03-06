@@ -18,9 +18,6 @@ Ubuntu example:
 sudo apt-get install libglut3-dev
 ```
 
-### Installing
+### Building
 
-Simply run```make```and then call ```./play <rom>``` with your rom of choice. Several sample roms are given in the test_files folder.
-```
-gcc chip8.c main.c -lGL -lglut -lGLU
-```
+Run```make```and then call ```./play <rom>``` with your rom of choice. Several sample roms are given in the test_files folder.
