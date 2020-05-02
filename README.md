@@ -4,7 +4,7 @@ Chip-8 is a simple, interpreted, assembly language which was first used on some 
 
 ## TODO
 - Refactor
-- Implement Sound
+-  Fix Sound
 
 ## Getting Started
 
