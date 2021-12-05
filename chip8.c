@@ -1,6 +1,6 @@
 #include "chip8.h"
 
-#define unknown_opcode(X) printf("Unknown opcode 0x%x\n", X)
+#define UNKNOWN_OPCODE(X) printf("Unknown opcode 0x%x\n", X)
 
 static inline uint8_t randbyte() {return rand() % 256;}
 
@@ -66,40 +66,23 @@ void draw_sprite(uint8_t x, uint8_t y, uint8_t h) {
 }
 
 
-void chip8_init() {
-
-  int i;
-
-  pc = 0x200;
-  opcode = 0;
-  I = 0;
-  sp = 0;
-
-  for (i = 0; i < 80; i++)
+void Initialize() {
+  pc = 0x200; opcode = 0; I = 0; sp = 0;
+  for (int i = 0; i < 80; i++)
     memory[i] = chip8_fontset[i];
-
-  delay_timer = 0;
-  sound_timer = 0;
-
+  delay_timer = 0; sound_timer = 0;
   draw_flag = true;
-
+  // We want predictable Random number trace for debugging
   srand(time(NULL));
 }
 
-
-void chip8_loadgame(char* filename) {
-
+void LoadGame(char* filename) {
   FILE* rom = fopen(filename, "rb");
-
   fread(&memory[0x200], 1, MAX_GAME_SIZE, rom);
-
   fclose(rom);
-
 }
 
-
-void chip8_emulatecycle() {
-
+void EmulateCycle() {
   int i;
   uint8_t x, y, n, kk;
   uint16_t nnn;
@@ -127,7 +110,7 @@ void chip8_emulatecycle() {
           pc = stack[sp];
           break;
        default:
-          unknown_opcode(opcode);
+          UNKNOWN_OPCODE(opcode);
       }
       break;
 
@@ -214,7 +197,7 @@ void chip8_emulatecycle() {
           registers[x] = registers[x] << 1;
           break;
         default:
-          unknown_opcode(opcode);
+          UNKNOWN_OPCODE(opcode);
       }
       pc += 2;
       break;
@@ -226,7 +209,7 @@ void chip8_emulatecycle() {
           pc += registers[x] != registers[y] ? 4 : 2;
           break;
         default:
-          unknown_opcode(opcode);
+          UNKNOWN_OPCODE(opcode);
       }
       break;
 
@@ -330,11 +313,11 @@ void chip8_emulatecycle() {
           pc += 2;
           break;
         default:
-          unknown_opcode(opcode);
+          UNKNOWN_OPCODE(opcode);
       }
       break;
     default:
-      unknown_opcode(opcode);
+      UNKNOWN_OPCODE(opcode);
   }
 
   //chip8_tick();

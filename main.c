@@ -120,7 +120,7 @@ void loop() {
     struct timeval clock_now;
     gettimeofday(&clock_now, NULL);
 
-    chip8_emulatecycle();
+    EmulateCycle();
 
     if (draw_flag) {
         display();
@@ -144,8 +144,8 @@ int main(int argc, char* argv[]) {
         exit(2);
     }
 
-    chip8_init();
-    chip8_loadgame(argv[1]);
+    Initialize();
+    LoadGame(argv[1]);
 
     // Setup OpenGL
     glutInit(&argc, argv);

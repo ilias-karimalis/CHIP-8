@@ -6,10 +6,10 @@
 #include <stdint.h>
 #include <time.h>
 #include <string.h>
+#include <stdbool.h>
 
-#define true 1
-#define false 0
-#define bool int
+typedef uint8_t u8;
+typedef uint16_t u16;
 
 #define MEM_SIZE 0x1000
 #define STACK_SIZE 16
@@ -40,26 +40,26 @@ enum registers {
   VF = 0xf
 };
 
-uint16_t pc;
-uint16_t opcode;
-uint16_t I;
-uint16_t sp;
+u16 pc;
+u16 opcode;
+u16 I;
+u16 sp;
 
-uint8_t registers[16];
-uint8_t memory[MEM_SIZE];
-uint16_t stack[STACK_SIZE];
+u8 registers[16];
+u8 memory[MEM_SIZE];
+u16 stack[STACK_SIZE];
 
-uint8_t delay_timer;
-uint8_t sound_timer;
+u8 delay_timer;
+u8 sound_timer;
 
-uint8_t draw_flag;
+u8 draw_flag;
 
-uint8_t key[KEY_SIZE];
-uint8_t gfx[GFX_ROWS][GFX_COLS];
+u8 key[KEY_SIZE];
+u8 gfx[GFX_ROWS][GFX_COLS];
 
-void chip8_init();
-void chip8_loadgame(char* filename);
-void chip8_emulatecycle();
+void Initialize();
+void LoadGame(char* filename);
+void EmulateCycle();
 void chip8_setkeys();
 void chip8_tick();
 void print_state();
